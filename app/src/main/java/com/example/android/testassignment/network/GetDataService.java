@@ -7,6 +7,6 @@ import retrofit2.http.GET;
 
 public interface GetDataService {
 
-    @GET("intern_test")
+    @GET("end_point")
     Call<Data> getAppData();
 }
